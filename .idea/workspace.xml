@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adbea068-f4d0-4f5e-8db3-24867f4f71ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/controllers/AnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/controllers/AnnouncementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/controllers/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/mappers/AnnouncementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/mappers/AnnouncementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/mappers/TeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/mappers/TeamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/AnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/AnnouncementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/impl/AnnouncementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/impl/AnnouncementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/cooksys/groupfinal/services/impl/CompanyServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GroupFinalApplication.executor": "Run",
-    "Maven.group-final [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "backend-jl",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GroupFinalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.group-final [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;backend&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GroupFinalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cooksys.groupfinal.GroupFinalApplication" />

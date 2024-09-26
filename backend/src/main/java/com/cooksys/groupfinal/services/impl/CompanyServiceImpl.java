@@ -131,6 +131,10 @@ public class CompanyServiceImpl implements CompanyService {
 	public AnnouncementDto createAnnouncement(Long companyId, AnnouncementDto announcementDto) {
 		Announcement announcement = announcementMapper.DtoToEntity(announcementDto);
 		announcement.setCompany(companyRepository.getReferenceById(companyId));
+
+		Long authorId = announcementDto.getAuthor().getId();
+		User author = userRepository.getReferenceById(authorId);
+		announcement.setAuthor(author);
 		return announcementMapper.entityToDto(announcementRepository.saveAndFlush(announcement));
 	}
 
