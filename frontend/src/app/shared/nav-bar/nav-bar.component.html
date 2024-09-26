@@ -6,7 +6,11 @@
       </div>
     </a>
 
-    <p id="role-text">Acting as Admin</p>
+    @if (isAdmin) {
+      <p id="role-text">Acting as Admin</p>
+    } @else {
+      <p id="role-text">{{userName}}</p>
+    }
   </div>
 
   <mat-toolbar id="nav-toolbar">
@@ -14,6 +18,6 @@
     <a class="nav-toolbar-button" mat-button routerLink="/app/company">Company</a>
     <a class="nav-toolbar-button" mat-button routerLink="/app/teams">Teams</a>
     <a class="nav-toolbar-button" mat-button routerLink="/app/users">Users</a>
-    <button class="nav-toolbar-button" mat-button>Logout</button>
+    <button class="nav-toolbar-button" mat-button (click)="logout()">Logout</button>
   </mat-toolbar>
 </nav>

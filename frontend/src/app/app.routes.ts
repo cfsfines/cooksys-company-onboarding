@@ -21,7 +21,7 @@ export const routes: Routes = [
     canActivate: [IsAuthenticated],
     children: [
       { path: "login", component: AppComponent },
-      { path: "company", component: AppComponent },
+      { path: "company", component: CompanyComponent },
       { path: "home", component: HomeComponent },
       { path: "teams", component: TeamsComponent },
       { path: "users", component: UsersComponent },
